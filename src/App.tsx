@@ -33,6 +33,7 @@ const content = {
     clientflowTitle: 'ClientFlow',
     clientflowDescription:
       'Uma aplicação full stack para gerenciamento de clientes, tarefas e atividades. Conta com autenticação JWT, controle de acesso, API REST e persistência em PostgreSQL.',
+    clientflowCredentials: 'Credenciais para demonstração',
     liveDemo: 'Aplicação online',
     sourceCode: 'Código-fonte',
     status: 'Publicado em produção',
@@ -83,6 +84,7 @@ const content = {
     clientflowTitle: 'ClientFlow',
     clientflowDescription:
       'A full stack application for managing clients, tasks, and activities. It features JWT authentication, access control, a REST API, and PostgreSQL persistence.',
+    clientflowCredentials: 'Demo credentials',
     liveDemo: 'Live application',
     sourceCode: 'Source code',
     status: 'Deployed to production',
@@ -365,6 +367,17 @@ function App() {
                   <p className="mt-4 text-sm leading-7 text-slate-400">
                     {t.clientflowDescription}
                   </p>
+                  <div className="mt-4 rounded-lg border border-white/10 p-4">
+                  <h4 className="font-semibold mt-2">
+                    {t.clientflowCredentials}
+                  </h4>
+                  <p className="mt-2 text-sm">ss
+                    <strong>E-mail:</strong> demo@clientflow.app
+                  </p>
+                  <p className="text-sm">
+                    <strong>Password:</strong> ClientFlowDemo2026!
+                  </p>
+                </div>
 
                   <p className="mt-7 text-[10px] font-semibold tracking-[0.2em] text-slate-500">
                     {t.stackLabel}
