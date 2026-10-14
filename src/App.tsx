@@ -371,7 +371,7 @@ function App() {
                   <h4 className="font-semibold mt-2">
                     {t.clientflowCredentials}
                   </h4>
-                  <p className="mt-2 text-sm">ss
+                  <p className="mt-2 text-sm">
                     <strong>E-mail:</strong> demo@clientflow.app
                   </p>
                   <p className="text-sm">
